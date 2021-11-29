@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8a7c89690d.js" crossorigin="anonymous"></script>
+    <title>Registration</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__wrap">
+            <div class="header__left">
+                <a class="header__logo" href="index.html">
+                    <img src="img/Logo.png" alt="Logo">
+                </a>
+                <img src="img/Search.png" alt="Search">
+            </div>
+            <nav>
+                <img class="header__item" src="img/Menu.png" alt="Menu">
+                <a class="header__item" href="registration.html">
+                    <img src="img/acc.png" alt="acc">
+                </a>
+                <a class="header__item" href="cart.html">
+                    <img src="img/cart.png" alt="cart">
+                </a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <header class="pagetitle">
+            <div class="pagetitle__wrap container">
+                <H2 class="pagetitle__name">REGISTRATION</H2>
+            </div>
+        </header>
+        <section class="registration container">
+            <form class="registration__form">
+                <div>
+                    <Legend>Your Name</Legend>
+                    <input class="registration__input" type="text" placeholder="First Name">
+                    <input class="registration__input" type="text" placeholder="Last Name">
+                </div>
+                <div class="registration__radio">
+                    <input class="radio" type="radio" name="gender"> Male
+                    <input type="radio" name="gender"> Female
+                </div>
+                <div>
+                    <Legend>Login details</Legend>
+                    <input class="registration__input" type="email" placeholder="Email" required>
+                    <input class="registration__input" type="text" placeholder="Password">
+                    <p>Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase
+                        letters</p>
+                </div>
+                <button class="registration__button">
+                    <h5>JOIN NOW</h5>
+                    <svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M11.54 0.208095C11.6058 0.142131 11.684 0.0897967 11.77 0.0540883C11.8561 0.01838 11.9483 0 12.0415 0C12.1347 0 12.2269 0.01838 12.313 0.0540883C12.399 0.0897967 12.4772 0.142131 12.543 0.208095L16.7929 4.458C16.8589 4.5238 16.9112 4.60196 16.9469 4.68802C16.9826 4.77407 17.001 4.86632 17.001 4.95949C17.001 5.05266 16.9826 5.14491 16.9469 5.23097C16.9112 5.31702 16.8589 5.39518 16.7929 5.46098L12.543 9.71089C12.41 9.84389 12.2296 9.91861 12.0415 9.91861C11.8534 9.91861 11.673 9.84389 11.54 9.71089C11.407 9.57788 11.3323 9.39749 11.3323 9.2094C11.3323 9.0213 11.407 8.84091 11.54 8.70791L15.2898 4.95949L11.54 1.21107C11.474 1.14528 11.4217 1.06711 11.386 0.981059C11.3503 0.895005 11.3319 0.802752 11.3319 0.709584C11.3319 0.616415 11.3503 0.524162 11.386 0.438109C11.4217 0.352055 11.474 0.273891 11.54 0.208095Z"
+                            fill="white" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M0 4.95948C0 4.77162 0.0746263 4.59146 0.207462 4.45862C0.340297 4.32579 0.52046 4.25116 0.708318 4.25116H15.583C15.7708 4.25116 15.951 4.32579 16.0838 4.45862C16.2167 4.59146 16.2913 4.77162 16.2913 4.95948C16.2913 5.14734 16.2167 5.3275 16.0838 5.46033C15.951 5.59317 15.7708 5.6678 15.583 5.6678H0.708318C0.52046 5.6678 0.340297 5.59317 0.207462 5.46033C0.0746263 5.3275 0 5.14734 0 4.95948Z"
+                            fill="white" />
+                    </svg>
+                </button>
+
+            </form>
+            <article class="registration__bonus">
+                <H3>LOYALTY HAS ITS PERKS</H3>
+                <p>Get in on the loyalty program where you can earn points and unlock serious perks. Starting with these
+                    as soon as you join:</p>
+                <li>15% off welcome offer</li>
+                <li>Free shipping, returns and exchanges on all orders</li>
+                <li>$10 off a purchase on your birthday</li>
+                <li>Early access to products</li>
+                <li>Exclusive offers & rewards</li>
+            </article>
+        </section>
+
+    </main>
+    <section class="subscribe">
+        <div class="container subscribe__wrap">
+            <div class="girl">
+                <img class="girl__img" src="img/footergirl.png" alt="girl">
+                <p class="girl__text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar
+                    purus
+                    condimentum“</p>
+            </div>
+            <form class="subscribe__form">
+                <legend>SUBSCRIBE <br>
+                    FOR OUR NEWLETTER AND PROMOTION</legend>
+                <fieldset>
+                    <input class="input" type="email" placeholder="Enter Your Email" required>
+                    <input class="submit" type="submit" value="Subscribe">
+                </fieldset>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer__wrap">
+            <h5 class="footer__legal">© 2021 Brand All Rights Reserved.</h5>
+            <div class="footer__contacts">
+                <!-- <div class="footer__item">
+                        <img class="footer__item" src="img/fb.png" alt="Facebook">
+                    </div>
+                    <div class="footer__item">
+                        <img class="footer__item" src="img/instagram.png" alt="instagram">
+                    </div>
+                    <div class="footer__item">
+                        <img class="footer__item" src="img/pinterest.png" alt="pinterest">
+                    </div>
+                    <div class="footer__item">
+                        <img class="footer__item" src="img/twitter.png" alt="twitter">
+                    </div> -->
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-instagram-square"></i>
+                <i class="fab fa-pinterest-square"></i>
+                <i class="fab fa-twitter-square"></i>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
